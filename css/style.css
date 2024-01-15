@@ -1,9 +1,54 @@
 *{
-    margin: 0px auto;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+.primary-color{
+    color: #3A3A3A;
+}
+
 body{
+    width: 1350px;
+    /* background-color: burlywood; */
+    height: auto;
     font-family: 'Poppins', sans-serif;
+    
+
+
+}
+
+header{
+    width: 1200px;
+    margin: 0px auto;
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav ul{
+    display: flex;
+    gap: 50px;
+    
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
 }
